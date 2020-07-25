@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity() {
 
             binding.ivHasilPertandingan.setImageResource(drawable.vs)
         }
-        
+
         setContentView(view)
     }
 }
