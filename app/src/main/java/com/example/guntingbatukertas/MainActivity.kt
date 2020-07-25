@@ -32,28 +32,20 @@ class MainActivity : AppCompatActivity() {
             binding.ivKertasPemain.isClickable = false
 
             binding.ivBatuPemain.setBackgroundResource(drawable.bg_on_click)
-            binding.ivKertasPemain.setBackgroundResource(drawable.bg_no_click)
-            binding.ivGuntingPemain.setBackgroundResource(drawable.bg_no_click)
 
             when (pilihanCom) {
                 "batu" -> {
                     binding.ivBatuCom.setBackgroundResource(drawable.bg_on_click)
-                    binding.ivGuntingCom.setBackgroundResource(drawable.bg_no_click)
-                    binding.ivKertasCom.setBackgroundResource(drawable.bg_no_click)
                     binding.ivHasilPertandingan.setImageResource(drawable.draw)
                     Log.d("hasil pertandingan", "Seimbang")
                 }
                 "gunting" -> {
                     binding.ivGuntingCom.setBackgroundResource(drawable.bg_on_click)
-                    binding.ivBatuCom.setBackgroundResource(drawable.bg_no_click)
-                    binding.ivKertasCom.setBackgroundResource(drawable.bg_no_click)
                     binding.ivHasilPertandingan.setImageResource(drawable.pemain_menang)
                     Log.d("hasil pertandingan", "Pemain Menang")
                 }
                 "kertas" -> {
                     binding.ivKertasCom.setBackgroundResource(drawable.bg_on_click)
-                    binding.ivBatuCom.setBackgroundResource(drawable.bg_no_click)
-                    binding.ivGuntingCom.setBackgroundResource(drawable.bg_no_click)
                     binding.ivHasilPertandingan.setImageResource(drawable.computer_menang)
                     Log.d("hasil pertandingan", "Computer Menang")
                 }
@@ -71,28 +63,20 @@ class MainActivity : AppCompatActivity() {
             binding.ivKertasPemain.isClickable = false
 
             binding.ivGuntingPemain.setBackgroundResource(drawable.bg_on_click)
-            binding.ivKertasPemain.setBackgroundResource(drawable.bg_no_click)
-            binding.ivBatuPemain.setBackgroundResource(drawable.bg_no_click)
 
             when (pilihanCom) {
                 "batu" -> {
                     binding.ivBatuCom.setBackgroundResource(drawable.bg_on_click)
-                    binding.ivGuntingCom.setBackgroundResource(drawable.bg_no_click)
-                    binding.ivKertasCom.setBackgroundResource(drawable.bg_no_click)
                     binding.ivHasilPertandingan.setImageResource(drawable.computer_menang)
                     Log.d("hasil pertandingan", "Computer Menang")
                 }
                 "gunting" -> {
                     binding.ivGuntingCom.setBackgroundResource(drawable.bg_on_click)
-                    binding.ivBatuCom.setBackgroundResource(drawable.bg_no_click)
-                    binding.ivKertasCom.setBackgroundResource(drawable.bg_no_click)
                     binding.ivHasilPertandingan.setImageResource(drawable.draw)
                     Log.d("hasil pertandingan", "Seimbang")
                 }
                 "kertas" -> {
                     binding.ivKertasCom.setBackgroundResource(drawable.bg_on_click)
-                    binding.ivBatuCom.setBackgroundResource(drawable.bg_no_click)
-                    binding.ivGuntingCom.setBackgroundResource(drawable.bg_no_click)
                     binding.ivHasilPertandingan.setImageResource(drawable.pemain_menang)
                     Log.d("hasil pertandingan", "Pemain Menang")
                 }
@@ -110,28 +94,20 @@ class MainActivity : AppCompatActivity() {
             binding.ivKertasPemain.isClickable = false
 
             binding.ivKertasPemain.setBackgroundResource(drawable.bg_on_click)
-            binding.ivBatuPemain.setBackgroundResource(drawable.bg_no_click)
-            binding.ivGuntingPemain.setBackgroundResource(drawable.bg_no_click)
 
             when (pilihanCom) {
                 "batu" -> {
                     binding.ivBatuCom.setBackgroundResource(drawable.bg_on_click)
-                    binding.ivGuntingCom.setBackgroundResource(drawable.bg_no_click)
-                    binding.ivKertasCom.setBackgroundResource(drawable.bg_no_click)
                     binding.ivHasilPertandingan.setImageResource(drawable.pemain_menang)
                     Log.d("hasil pertandingan", "Pemain Menang")
                 }
                 "gunting" -> {
                     binding.ivGuntingCom.setBackgroundResource(drawable.bg_on_click)
-                    binding.ivBatuCom.setBackgroundResource(drawable.bg_no_click)
-                    binding.ivKertasCom.setBackgroundResource(drawable.bg_no_click)
                     binding.ivHasilPertandingan.setImageResource(drawable.computer_menang)
                     Log.d("hasil pertandingan", "Computer Menang")
                 }
                 "kertas" -> {
                     binding.ivKertasCom.setBackgroundResource(drawable.bg_on_click)
-                    binding.ivBatuCom.setBackgroundResource(drawable.bg_no_click)
-                    binding.ivGuntingCom.setBackgroundResource(drawable.bg_no_click)
                     binding.ivHasilPertandingan.setImageResource(drawable.draw)
                     Log.d("hasil pertandingan", "Seimbang")
                 }
@@ -153,9 +129,7 @@ class MainActivity : AppCompatActivity() {
 
             binding.ivHasilPertandingan.setImageResource(drawable.vs)
         }
-
-
-
+        
         setContentView(view)
     }
 }
